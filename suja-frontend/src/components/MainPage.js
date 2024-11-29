@@ -35,7 +35,7 @@ function MainPage({ teams = [], setTeams, socket, handleVote, handleReset, handl
 
   return (
     <div className={styles} >
-      <h1>Standup Judging Game</h1>
+      <h1>Эра Гладиаторов</h1>
       <button className={styles.btn2}  onClick={handleReset}>Давай по-новой!</button>
       <button className={styles.btn1}  onClick={handleAddRound}>РАУНД</button>
       <button className={styles.btn1}  onClick={handleAddTeam}>Добавить Команду</button>
